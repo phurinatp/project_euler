@@ -13,7 +13,7 @@ let max = -1/0
 for (let i = 999; i > 99; i--) {
     for (let j = 999; j > 99; j--) {
         let product = i * j;
-        if (isPalindrome(product.toString()) && product > max) {
+        if (product > max && isPalindrome(product.toString())) {
             max = product;
             break;
         }
