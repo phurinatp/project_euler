@@ -4,7 +4,6 @@
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 */
 
-k = 1;
 let max = 2432902008176640000;
 let arr = [ ...Array(20).keys() ].map( i => i+1);
 let result = max;
@@ -16,4 +15,4 @@ for (let i = 20; i <= max; i++) {
     }
 }
 
-console.log(result);
+console.log(result); // expect 232792560
