@@ -15,6 +15,7 @@ for (let i = 3; i < 1000; i++) {
 console.log(sum) // expect 233168
 
 //arithmetic series
+
 // x = (3+limit-1)*((limit/6)|0)
 // y = (5+limit-5)*((limit/10)|0)
 // z = (15+limit-10)*((limit/30)|0)
